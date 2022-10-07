@@ -24,7 +24,7 @@ export default function Timer ({
         }
     
         if(isFinished){
-          sounds.timerIsFinished()
+          sounds.timerFinished()
           minutesDisplay.textContent = 25
           return
         }
